@@ -1,0 +1,5 @@
+export { default as AppLayout } from './components/AppLayout'
+export { PageHeader } from './components/PageHeader'
+export { useProfile } from './hooks/useProfile'
+export { NAV_GROUPS, mapAuthRole, isVisibleTo } from './nav'
+export type { CrmRole, NavItem, NavGroup } from './nav'
